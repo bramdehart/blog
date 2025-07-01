@@ -4,6 +4,12 @@ layout: compress
 
 <!doctype html>
 
+{% if page.lang == "nl" %}
+  <a href="/en{{ page.url }}">🇬🇧 English</a>
+{% elsif page.lang == "en" %}
+  <a href="{{ page.url | remove_first: '/en' }}">🇳🇱 Nederlands</a>
+{% endif %}
+
 {% include origin-type.html %}
 
 {% include lang.html %}
