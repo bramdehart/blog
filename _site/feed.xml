@@ -1,0 +1,49 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://bramdehart.nl/</id>
+  <title>Bram de Hart</title>
+  <subtitle>Notes, experiments, and observations from a software engineer who enjoys figuring things out — and writing it down along the way.</subtitle>
+  <updated>2025-07-01T23:59:00+02:00</updated>
+  <author>
+    <name>Bram de Hart</name>
+    <uri>https://bramdehart.nl/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://bramdehart.nl/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://bramdehart.nl/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Bram de Hart </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>🔍 Preventing Duplicate Content with AI Embeddings: My Practical Approach</title>
+    <link href="https://bramdehart.nl/posts/preventing-duplicate-content-with-ai-embeddings/" rel="alternate" type="text/html" title="🔍 Preventing Duplicate Content with AI Embeddings: My Practical Approach" />
+    <published>2025-07-01T08:00:00+02:00</published>
+  
+    <updated>2025-07-01T08:00:00+02:00</updated>
+  
+    <id>https://bramdehart.nl/posts/preventing-duplicate-content-with-ai-embeddings/</id>
+    <content type="text/html" src="https://bramdehart.nl/posts/preventing-duplicate-content-with-ai-embeddings/" />
+    <author>
+      <name>Bram de Hart</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="NLP" />
+    
+  
+
+  <summary>In my latest project, I automate the collection and rewriting of daily news articles using AI. While AI rewriting works surprisingly well, I quickly ran into a challenge: how do you prevent your website from publishing content that’s essentially the same, just worded differently?  🧠 The Challenge: Semantic Duplicates  AI can easily paraphrase sentences. For example:     “I eat McDonalds”   “I c...</summary>
+
+  </entry>
+
+</feed>
+
+
